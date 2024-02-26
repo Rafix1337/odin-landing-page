@@ -9,7 +9,7 @@ header {
     background-color: #1F2937;
 
     padding-top: 15px;
-    padding-bottom: 24px;
+    padding-bottom: 64px;
     justify-content: center;
 
 }
@@ -24,20 +24,13 @@ header div
 h1{
     font-size: 24px;
     color: #F9FAF8;
-
-
-
-
-
+    font-weight: bold;
 }
 
 ul{
     list-style-type: none;
     white-space:nowrap;
     margin-top: 4px;
-
-
-
 }
 
 li{
@@ -45,9 +38,52 @@ li{
     color: #E5E7EB;
     display: inline;
     margin-right: 10px;
-
-
 }
 
+#one
+{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
 
+#one article
+{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    width: 400px;
+}
+
+.hero{
+    margin-right: 32px;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+}
+
+img{
+    height: 310px;
+    width: 430px;
+}
+
+button
+{
+    width: 90px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top:6px;
+}
 
