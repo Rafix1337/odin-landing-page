@@ -105,14 +105,16 @@ h3{
     font-weight: bolder;
     color: #1F2937;
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 div.catimages
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
         /*Adding the width: 100%; bade the justify-content finally work  */
     width: 100%;
+    gap: 36px;
 }
 
 figure img{
@@ -126,6 +128,7 @@ figcaption
 {
     height: 120px;
     width: 120px;
+    text-align: center;
 
 }
 
