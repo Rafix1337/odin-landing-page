@@ -47,7 +47,7 @@ li{
     justify-content: center;
 }
 
-#one article
+article
 {
     display: flex;
     justify-content: space-between;
@@ -86,4 +86,48 @@ button
     border-radius: 5px;
     margin-top:6px;
 }
+
+#two
+{
+    display: flex;
+    justify-content: center;
+}
+
+#two article
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 24px;
+}
+
+div.catimages
+{
+    display: flex;
+    justify-content: space-around;
+        /*Adding the width: 100%; bade the justify-content finally work  */
+    width: 100%;
+}
+
+figure img{
+    height: 120px;
+    width: 120px; 
+
+    border-radius: 5px;
+}
+
+figcaption
+{
+    height: 120px;
+    width: 120px;
+
+}
+
+
 
