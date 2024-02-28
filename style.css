@@ -132,5 +132,41 @@ figcaption
 
 }
 
+#three
+{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+#three article
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+#three article div{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+q{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    padding-top: 64px;
+    text-align:justify;
+}
+
+figcaption.quote-author
+{
+    font-weight: bold;
+    width: 250px;
+    height: 100px;
+    
+}
+
 
 
