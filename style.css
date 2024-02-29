@@ -203,5 +203,19 @@ b{
     border: 2px solid white;
 }
 
+footer
+{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+
+}
+
+footer p
+{
+    color: white;
+}
+
 
 
