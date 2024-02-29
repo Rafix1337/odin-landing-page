@@ -54,6 +54,11 @@ article
     width: 960px;
 }
 
+#one article
+{
+    padding-bottom: 36px;
+}
+
 h2 {
     font-size: 48px;
     color: #F9FAF8;
